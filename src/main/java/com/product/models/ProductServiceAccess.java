@@ -11,5 +11,10 @@ package com.product.models;
  */
 public class ProductServiceAccess 
 {
+
+    public ProductServiceAccess() 
+    {}
+    
+    
     
 }
