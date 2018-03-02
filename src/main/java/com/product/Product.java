@@ -13,10 +13,10 @@ import java.util.Date;
  */
 final public class Product 
 {
-    final int id;
-    final String productName;
-    final String productImageUrl;
-    final Date lastUpdated;
+    private int id;
+    private String productName;
+    private String productImageUrl;
+    private Date lastUpdated;
     
     Product(int productId, String productName, String productImageUrl, Date lastUpdated)
     {
@@ -31,19 +31,39 @@ final public class Product
         return id;
     }
     
+    public void setId(int id)
+    {
+        this.id = id;
+    }
+    
     public String getProductName()
     {
         return productName;
     }
-    
+
+    public void setProductName(String productName) 
+    {
+        this.productName = productName;
+    }
+   
     public String getProductImageUrl()
     {
         return productImageUrl;
     }
     
+    public void setProductImageUrl(String productImageUrl)
+    {
+        this.productImageUrl = productImageUrl;
+    }
+    
     public Date getLastUpdated()
     {
         return lastUpdated;
+    }
+    
+    public void setLastUpdated(Date lastUpdated)
+    {
+        this.lastUpdated = lastUpdated;
     }
     
 }
