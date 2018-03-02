@@ -13,7 +13,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
 /**
- * JAX-RS application. Root path is /trivia
+ * JAX-RS application. Root path is /webshop
  *
  */
 @ApplicationPath("/webshop")
