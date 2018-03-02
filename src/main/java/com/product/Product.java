@@ -13,22 +13,22 @@ import java.util.Date;
  */
 final public class Product 
 {
-    final int productId;
+    final int id;
     final String productName;
     final String productImageUrl;
     final Date lastUpdated;
     
     Product(int productId, String productName, String productImageUrl, Date lastUpdated)
     {
-        this.productId = productId;
+        this.id = productId;
         this.productName = productName;
         this.productImageUrl = productImageUrl;
         this.lastUpdated = new Date(lastUpdated.getTime());
     }
     
-    public int getProductId()
+    public int getId()
     {
-        return productId;
+        return id;
     }
     
     public String getProductName()
